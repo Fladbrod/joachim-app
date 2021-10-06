@@ -11,7 +11,7 @@ public class Cars {
     @Autowired
     CarRepository carRepo;
 
-    @GetMapping("/cars/")
+    @GetMapping("/cars")
     public Iterable<Car> getCar() {
         return carRepo.findAll();
     }
