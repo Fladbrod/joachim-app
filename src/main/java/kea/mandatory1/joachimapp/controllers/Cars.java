@@ -1,10 +1,12 @@
 package kea.mandatory1.joachimapp.controllers;
 
+import io.swagger.annotations.Api;
 import kea.mandatory1.joachimapp.models.Car;
 import kea.mandatory1.joachimapp.repositories.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@Api(value = "Car controller", description = "REST endpoints for cars")
 @RestController
 public class Cars {
 
