@@ -6,7 +6,7 @@ import kea.mandatory1.joachimapp.repositories.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@Api(value = "Car controller", description = "REST endpoints for cars")
+@Api(value = "Car controller", description = "Car controller")
 @RestController
 public class Cars {
 
